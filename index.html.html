@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de información</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+            text-align: left;
+        }
+        input[type="text"] {
+            padding: 8px;
+            width: 100%;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        @media screen and (max-width: 600px) {
+            table {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lista de precios por cliente</h1>
+    </header>
+    <div class="container">
+		<h3 align="center">****** GANANCIA MINIMA $35 ******</h3>			
+		<h3 align="center">================ Precios zonas A ================</h3>
+	<table>
+            <thead>
+                <tr>
+                    <th>Paquetería</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+					<th>4</th>
+					<th>5</th>
+                </tr>
+            </thead>
+            <tbody>
+                				
+				<tr>
+                    <td>Paquetexprés</td>
+                    <td>160</td>
+					<td>180</td>
+					<td>180</td>
+					<td>200</td>
+					<td>200</td>
+                </tr>
+					
+				
+				<tr>
+                    <td>UPS (Exprés)</td>
+                    <td>180</td>
+					<td>180</td>
+					<td>180</td>
+					<td>180</td>
+					<td>180</td>
+                </tr>
+			
+				
+				<tr>
+                    <td>Estafeta Terrestre</td>
+                    <td>185</td>
+					<td>185</td>
+					<td>185</td>
+					<td>185</td>
+					<td>185</td>
+
+                </tr>
+				
+				<tr>
+                    <td>Estafeta Exprés</td>
+                    <td>195</td>
+					<td>230</td>
+					<td>250</td>
+					<td>280</td>
+					<td>300</td>
+
+                </tr>
+				
+				<tr>
+                    <td>Fedex Terrestre</td>
+                    <td>185</td>
+					<td>190</td>
+					<td>200</td>
+					<td>210</td>
+					<td>215</td>
+
+                </tr>
+				
+				<tr>
+                    <td>Fedex Exprés</td>
+                    <td>200</td>
+					<td>210</td>
+					<td>230</td>
+					<td>240</td>
+					<td>260</td>
+
+                </tr>
+				
+				<tr>
+                    <td>DHL Terrestre</td>
+                    <td>220</td>
+					<td>230</td>
+					<td>240</td>
+					<td>245</td>
+					<td>245</td>
+
+                </tr>
+				
+				<tr>
+                    <td>DHL Exprés</td>
+                    <td>240</td>
+					<td>245</td>
+					<td>255</td>
+					<td>265</td>
+					<td>275</td>
+
+                </tr>
+				
+				<!--<tr>
+                    <td>Copiar precios</td>
+                    <td><button onclick="copiar1kg()">Copy</button></td>
+					<td><button onclick="copiar2kg()">Copy</button></td>
+					<td><button onclick="copiar3kg()">Copy</button></td>
+					<td><button onclick="copiar4kg()">Copy</button></td>
+					<td><button onclick="copiar5kg()">Copy</button></td>
+
+                </tr>-->
+			</tbody>
+	</table>
+	<br>
+	<table>
+            <thead>
+                <tr>
+                    <th>Paquetería</th>
+					<th>6</th>
+					<th>7</th>
+					<th>8</th>
+					<th>9</th>
+					<th>10</th>
+                </tr>
+            </thead>
+            <tbody>
+                				
+				<tr>
+                    <td>Paquetexprés</td>
+					<td>210</td>
+					<td>210</td>
+					<td>220</td>
+					<td>230</td>
+					<td>240</td>
+                </tr>
+				
+				<tr>
+                    <td>UPS (Exprés)</td>
+					<td>250</td>
+					<td>260</td>
+					<td>270</td>
+					<td>285</td>
+					<td>300</td>
+                </tr>
+				
+				<tr>
+                    <td>Estafeta Terrestre</td>
+					<td>200</td>
+					<td>220</td>
+					<td>240</td>
+					<td>250</td>
+					<td>260</td>
+                </tr>
+				
+				<tr>
+                    <td>Estafeta Exprés</td>
+					<td>320</td>
+					<td>350</td>
+					<td>360</td>
+					<td>370</td>
+					<td>400</td>
+                </tr>
+				
+				<tr>
+                    <td>Fedex Terrestre</td>
+					<td>225</td>
+					<td>230</td>
+					<td>250</td>
+					<td>270</td>
+					<td>280</td>
+                </tr>
+				
+				<tr>
+                    <td>Fedex Exprés</td>
+					<td>260</td>
+					<td>280</td>
+					<td>290</td>
+					<td>300</td>
+					<td>310</td>
+                </tr>
+				
+				<tr>
+                    <td>DHL Terrestre</td>
+					<td>265</td>
+					<td>275</td>
+					<td>285</td>
+					<td>295</td>
+					<td>310</td>
+                </tr>
+				
+				<tr>
+                    <td>DHL Exprés</td>
+					<td>290</td>
+					<td>300</td>
+					<td>310</td>
+					<td>320</td>
+					<td>350</td>
+                </tr>
+				
+				<!--<tr>
+                    <td>Copiar precios</td>
+					<td><button onclick="copiar6kg()">Copy</button></td>
+					<td><button onclick="copiar7kg()">Copy</button></td>
+					<td><button onclick="copiar8kg()">Copy</button></td>
+					<td><button onclick="copiar9kg()">Copy</button></td>
+					<td><button onclick="copiar10kg()">Copy</button></td>
+                </tr>-->
+			</tbody>
+	</table>
+	<br>
+	<br>
+	<h3 align="center">================ Precios zonas B ================</h3>
+	<table>
+            <thead>
+                <tr>
+                    <th>Paquetería</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+					<th>4</th>
+					<th>5</th>
+                </tr>
+            </thead>
+            <tbody>
+                				
+				<tr>
+                    <td>Paquetexprés</td>
+                    <td>190</td>
+					<td>200</td>
+					<td>210</td>
+					<td>220</td>
+					<td>240</td>
+                </tr>
+					
+				<tr>
+                    <td>UPS (Exprés)</td>
+                    <td>240</td>
+					<td>240</td>
+					<td>240</td>
+					<td>280</td>
+					<td>280</td>
+                </tr>
+				
+				<tr>
+                    <td>Estafeta Terrestre</td>
+                    <td>185</td>
+					<td>185</td>
+					<td>185</td>
+					<td>185</td>
+					<td>185</td>
+
+                </tr>
+				
+				<tr>
+                    <td>Estafeta Exprés</td>
+                    <td>210</td>
+					<td>270</td>
+					<td>320</td>
+					<td>340</td>
+					<td>370</td>
+                </tr>
+				
+				<tr>
+                    <td>Fedex Terrestre</td>
+                    <td>185</td>
+					<td>190</td>
+					<td>200</td>
+					<td>210</td>
+					<td>215</td>
+
+                </tr>
+				
+				<tr>
+                    <td>Fedex Exprés</td>
+                    <td>200</td>
+					<td>210</td>
+					<td>230</td>
+					<td>245</td>
+					<td>260</td>
+                </tr>
+				
+				<tr>
+                    <td>DHL Terrestre</td>
+                    <td>220</td>
+					<td>230</td>
+					<td>240</td>
+					<td>245</td>
+					<td>245</td>
+                </tr>
+				
+				<tr>
+                    <td>DHL Exprés</td>
+                    <td>240</td>
+					<td>245</td>
+					<td>270</td>
+					<td>290</td>
+					<td>300</td>
+                </tr>
+				
+				<!--<tr>
+                    <td>Copiar precios</td>
+                    <td><button onclick="copiar1kg()">Copy</button></td>
+					<td><button onclick="copiar2kg()">Copy</button></td>
+					<td><button onclick="copiar3kg()">Copy</button></td>
+					<td><button onclick="copiar4kg()">Copy</button></td>
+					<td><button onclick="copiar5kg()">Copy</button></td>
+
+                </tr>-->
+			</tbody>
+	</table>
+	<br>
+	<table>
+            <thead>
+                <tr>
+                    <th>Paquetería</th>
+					<th>6</th>
+					<th>7</th>
+					<th>8</th>
+					<th>9</th>
+					<th>10</th>
+                </tr>
+            </thead>
+            <tbody>
+                				
+				<tr>
+                    <td>Paquetexprés</td>
+					<td>250</td>
+					<td>250</td>
+					<td>260</td>
+					<td>270</td>
+					<td>280</td>
+                </tr>
+				
+				<tr>
+                    <td>UPS (Exprés)</td>
+					<td>390</td>
+					<td>440</td>
+					<td>480</td>
+					<td>520</td>
+					<td>565</td>
+                </tr>
+				
+				<tr>
+                    <td>Estafeta Terrestre</td>
+					<td>220</td>
+					<td>230</td>
+					<td>240</td>
+					<td>250</td>
+					<td>260</td>
+                </tr>
+				
+				<tr>
+                    <td>Estafeta Exprés</td>
+					<td>390</td>
+					<td>420</td>
+					<td>450</td>
+					<td>480</td>
+					<td>510</td>
+                </tr>
+				
+				<tr>
+                    <td>Fedex Terrestre</td>
+					<td>225</td>
+					<td>240</td>
+					<td>260</td>
+					<td>280</td>
+					<td>280</td>
+                </tr>
+				
+				<tr>
+                    <td>Fedex Exprés</td>
+					<td>310</td>
+					<td>320</td>
+					<td>330</td>
+					<td>340</td>
+					<td>360</td>
+                </tr>
+				
+				<tr>
+                    <td>DHL Terrestre</td>
+					<td>265</td>
+					<td>275</td>
+					<td>285</td>
+					<td>295</td>
+					<td>320</td>
+                </tr>
+				
+				<tr>
+                    <td>DHL Exprés</td>
+					<td>320</td>
+					<td>330</td>
+					<td>350</td>
+					<td>350</td>
+					<td>360</td>
+                </tr>
+				
+				<!--<tr>
+                    <td>Copiar precios</td>
+					<td><button onclick="copiar6kg()">Copy</button></td>
+					<td><button onclick="copiar7kg()">Copy</button></td>
+					<td><button onclick="copiar8kg()">Copy</button></td>
+					<td><button onclick="copiar9kg()">Copy</button></td>
+					<td><button onclick="copiar10kg()">Copy</button></td>
+                </tr>-->
+			</tbody>
+	</table>
+	
+		
+	    <h3>NOTA: Si el precio contiene *** consultar con Daniel</h3>
+		<h3>NOTA 2: Si el precio es menor al costo de la guía, consultar con Daniel</h3>
+        <input type="text" id="search" onkeyup="buscar()" placeholder="Buscar...">
+		<!--<button onclick="agregarRegistro()">Agregar</button>
+		<br>
+		<br>-->
+        <table id="tabla">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Teléfono</th>
+                    <th>Paquetería</th>
+                    <th>Kilos</th>
+					<th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+
+				<tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>Estafeta Terrestre</td>
+                    <td>20</td>
+					<td>$340</td>
+                </tr>
+				
+				<tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>FedEx Terrestre (en promocion)</td>
+                    <td>20</td>
+					<td>$280</td>
+                </tr>	
+
+				<tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>Estafeta Terrestre</td>
+                    <td>22</td>
+					<td>$360</td>
+                </tr>
+				
+				<tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>FedEx Terrestre (en promocion)</td>
+                    <td>22</td>
+					<td>$280</td>
+                </tr>				
+
+				<tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>Estafeta Terrestre</td>
+                    <td>23</td>
+					<td>$370</td>
+                </tr>
+				
+				<tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>FedEx Terrestre (en promocion)</td>
+                    <td>23</td>
+					<td>$290</td>
+                </tr>
+
+				<tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>Estafeta Terrestre</td>
+                    <td>24</td>
+					<td>$370</td>
+                </tr>
+				
+				<tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>Estafeta Terrestre</td>
+                    <td>27</td>
+					<td>$390</td>
+                </tr>
+
+				<tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>FedEx Terrestre (en promocion)</td>
+                    <td>27</td>
+					<td>$310</td>
+                </tr>
+
+                <tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>Estafeta Terrestre</td>
+                    <td>13</td>
+					<td>$290</td>
+                </tr>
+				
+				<tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>FedEx Terrestre (en promocion)</td>
+                    <td>13</td>
+					<td>$220</td>
+                </tr>
+
+                <tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>Estafeta Terrestre</td>
+                    <td>15</td>
+					<td>$300</td>
+                </tr>
+				
+				<tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>FedEx Terrestre (en promocion)</td>
+                    <td>15</td>
+					<td>$250</td>
+                </tr>
+
+                <tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>Estafeta Terrestre</td>
+                    <td>17</td>
+					<td>$315</td>
+                </tr>
+				
+				<tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>FedEx Terrestre (en promocion)</td>
+                    <td>17</td>
+					<td>$260</td>
+                </tr>
+				
+				<tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>Estafeta Terrestre</td>
+                    <td>35</td>
+					<td>$480</td>
+                </tr>
+				
+				<tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>FedEx Terrestre</td>
+                    <td>35</td>
+					<td>$410</td>
+                </tr>
+				
+				<tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>Estafeta Terrestre</td>
+                    <td>40</td>
+					<td>$520</td>
+                </tr>
+
+				<tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>Estafeta Terrestre</td>
+                    <td>45</td>
+					<td>$580</td>
+                </tr>
+				
+				<tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>FedEx Terrestre</td>
+                    <td>45</td>
+					<td>$550</td>
+                </tr>
+				
+				<tr>
+                    <td>Mariana Escalona Carreon</td>
+                    <td>5523365807</td>
+                    <td>FedEx Terrestre (en promocion)</td>
+                    <td>10</td>
+					<td>$210</td>
+                </tr>
+				
+
+
+				<tr>
+                    <td>Mauricio Soto Quiroz</td>
+                    <td>5569704282</td>
+                    <td>FedEx Terrestre</td>
+                    <td>12</td>
+					<td>$280</td>
+                </tr>
+				<tr>
+                    <td>Mauricio Soto Quiroz</td>
+                    <td>5569704282</td>
+                    <td>FedEx Terrestre</td>
+                    <td>15</td>
+					<td>$290</td>
+                </tr>
+				<tr>
+                    <td>Mauricio Soto Quiroz</td>
+                    <td>5569704282</td>
+                    <td>FedEx Terrestre</td>
+                    <td>32</td>
+					<td>$450</td>
+                </tr>
+				
+				<tr>
+                    <td>Gustavo Enrique Chavez G y Karina Galvan</td>
+                    <td>Varios</td>
+                    <td>FedEx Terrestre (en promocion)</td>
+                    <td>15</td>
+					<td>$330</td>
+                </tr>
+				<tr>
+                    <td>Gustavo Enrique Chavez G y Karina Galvan</td>
+                    <td>Varios</td>
+                    <td>Estafeta Terrestre</td>
+                    <td>15</td>
+					<td>$310</td>
+                </tr>
+				<tr>
+                    <td>Gustavo Enrique Chavez G y Karina Galvan</td>
+                    <td>Varios</td>
+                    <td>FedEx Exprés</td>
+                    <td>15</td>
+					<td>$450</td>
+                </tr>
+				<tr>
+                    <td>Gustavo Enrique Chavez G y Karina Galvan</td>
+                    <td>Varios</td>
+                    <td>Estafeta Exprés</td>
+                    <td>15</td>
+					<td>$580</td>
+                </tr>
+
+				<tr>
+                    <td>Gustavo Enrique Chavez G y Karina Galvan</td>
+                    <td>Varios</td>
+                    <td>FedEx Terrestre (en promocion)</td>
+                    <td>25</td>
+					<td>$390</td>
+                </tr>
+				<tr>
+                    <td>Gustavo Enrique Chavez G y Karina Galvan</td>
+                    <td>Varios</td>
+                    <td>Estafeta Terrestre</td>
+                    <td>25</td>
+					<td>$450</td>
+                </tr>
+
+				<tr>
+                    <td>Gustavo Enrique Chavez G y Karina Galvan</td>
+                    <td>Varios</td>
+                    <td>Estafeta Exprés</td>
+                    <td>25</td>
+					<td>$950</td>
+                </tr>
+				
+				<tr>
+                    <td>Gustavo Enrique Chavez G y Karina Galvan</td>
+                    <td>Varios</td>
+                    <td>DHL Terrestre</td>
+                    <td>25</td>
+					<td>$500</td>
+                </tr>
+				<tr>
+                    <td>Gustavo Enrique Chavez G y Karina Galvan</td>
+                    <td>Varios</td>
+                    <td>DHL Exprés</td>
+                    <td>25</td>
+					<td>$600</td>
+                </tr>
+				
+				<!--*************************-->
+				
+            </tbody>
+        </table>
+		<script>
+		function buscar() {
+			var input, filter, tabla, tr, td, i, j;
+			input = document.getElementById("search");
+			filter = input.value.toUpperCase();
+			tabla = document.getElementById("tabla");
+			tr = tabla.getElementsByTagName("tr");
+
+			for (i = 0; i < tr.length; i++) {
+				for (j = 0; j < 5; j++) {
+					td = tr[i].getElementsByTagName("td")[j];
+					if (td) {
+						if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+							tr[i].style.display = "";
+							break;
+						} else {
+							tr[i].style.display = "none";
+						}
+					}
+				}
+			}
+		}
+		
+		function copiar1kg() {
+		  // Selecciona el texto que queremos copiar
+		  const informacion = "Listo, te saldría en:\nPaquetexprés $190\nEstafeta Terrestre $185\nUPS Exprés $180\nEstafeta Exprés $195\nFedEx Terrestre $185\nDHL Terrestre $220\nFedEx Exprés $200\nDHL Exprés $240";
+
+		  // Crea un elemento de textarea oculto para copiar el texto
+		  const elementoTemporal = document.createElement("textarea");
+		  elementoTemporal.value = informacion;
+		  elementoTemporal.setAttribute("readonly", "");
+		  elementoTemporal.style.position = "absolute";
+		  elementoTemporal.style.left = "-9999px";
+		  document.body.appendChild(elementoTemporal);
+
+		  // Selecciona y copia el texto del elemento de textarea
+		  elementoTemporal.select();
+		  document.execCommand("copy");
+
+		  // Elimina el elemento de textarea temporal
+		  document.body.removeChild(elementoTemporal);
+
+		  // Muestra una notificacion de que se ha copiado la informacion
+		  alert("Se copiaron los precios de 1KG");
+		}
+		
+		function copiar2kg() {
+		  // Selecciona el texto que queremos copiar
+		  const informacion = "Listo, te saldría en:\nPaquetexprés $210\nEstafeta Terrestre $185\nUPS Exprés $180\nEstafeta Exprés $230\nFedEx Terrestre $190\nDHL Terrestre $230\nFedEx Exprés $210\nDHL Exprés $245";
+
+		  // Crea un elemento de textarea oculto para copiar el texto
+		  const elementoTemporal = document.createElement("textarea");
+		  elementoTemporal.value = informacion;
+		  elementoTemporal.setAttribute("readonly", "");
+		  elementoTemporal.style.position = "absolute";
+		  elementoTemporal.style.left = "-9999px";
+		  document.body.appendChild(elementoTemporal);
+
+		  // Selecciona y copia el texto del elemento de textarea
+		  elementoTemporal.select();
+		  document.execCommand("copy");
+
+		  // Elimina el elemento de textarea temporal
+		  document.body.removeChild(elementoTemporal);
+
+		  // Muestra una notificacion de que se ha copiado la informacion
+		  alert("Se copiaron los precios de 2KG");
+		}
+		
+		function copiar3kg() {
+		  // Selecciona el texto que queremos copiar
+		  const informacion = "Listo, te saldría en:\nPaquetexprés $210\nEstafeta Terrestre $185\nUPS Exprés $180\nEstafeta Exprés $270\nFedEx Terrestre $200\nDHL Terrestre $240\nFedEx Exprés $230\nDHL Exprés $255";
+
+		  // Crea un elemento de textarea oculto para copiar el texto
+		  const elementoTemporal = document.createElement("textarea");
+		  elementoTemporal.value = informacion;
+		  elementoTemporal.setAttribute("readonly", "");
+		  elementoTemporal.style.position = "absolute";
+		  elementoTemporal.style.left = "-9999px";
+		  document.body.appendChild(elementoTemporal);
+
+		  // Selecciona y copia el texto del elemento de textarea
+		  elementoTemporal.select();
+		  document.execCommand("copy");
+
+		  // Elimina el elemento de textarea temporal
+		  document.body.removeChild(elementoTemporal);
+
+		  // Muestra una notificacion de que se ha copiado la informacion
+		  alert("Se copiaron los precios de 3KG");
+		}
+		
+		function copiar4kg() {
+		  // Selecciona el texto que queremos copiar
+		  const informacion = "Listo, te saldría en:\nPaquetexprés $240\nEstafeta Terrestre $185\nUPS Exprés $180\nEstafeta Exprés $300\nFedEx Terrestre $210\nDHL Terrestre $245\nFedEx Exprés $245\nDHL Exprés $265";
+
+		  // Crea un elemento de textarea oculto para copiar el texto
+		  const elementoTemporal = document.createElement("textarea");
+		  elementoTemporal.value = informacion;
+		  elementoTemporal.setAttribute("readonly", "");
+		  elementoTemporal.style.position = "absolute";
+		  elementoTemporal.style.left = "-9999px";
+		  document.body.appendChild(elementoTemporal);
+
+		  // Selecciona y copia el texto del elemento de textarea
+		  elementoTemporal.select();
+		  document.execCommand("copy");
+
+		  // Elimina el elemento de textarea temporal
+		  document.body.removeChild(elementoTemporal);
+
+		  // Muestra una notificacion de que se ha copiado la informacion
+		  alert("Se copiaron los precios de 4KG");
+		}
+		
+		function copiar5kg() {
+		  // Selecciona el texto que queremos copiar
+		  const informacion = "Listo, te saldría en:\nPaquetexprés $240\nEstafeta Terrestre $185\nUPS Exprés $180\nEstafeta Exprés $340\nFedEx Terrestre $215\nDHL Terrestre $245\nFedEx Exprés $260\nDHL Exprés $275";
+
+		  // Crea un elemento de textarea oculto para copiar el texto
+		  const elementoTemporal = document.createElement("textarea");
+		  elementoTemporal.value = informacion;
+		  elementoTemporal.setAttribute("readonly", "");
+		  elementoTemporal.style.position = "absolute";
+		  elementoTemporal.style.left = "-9999px";
+		  document.body.appendChild(elementoTemporal);
+
+		  // Selecciona y copia el texto del elemento de textarea
+		  elementoTemporal.select();
+		  document.execCommand("copy");
+
+		  // Elimina el elemento de textarea temporal
+		  document.body.removeChild(elementoTemporal);
+
+		  // Muestra una notificacion de que se ha copiado la informacion
+		  alert("Se copiaron los precios de 5KG");
+		}
+		
+		function copiar6kg() {
+		  // Selecciona el texto que queremos copiar
+		  const informacion = "Listo, te saldría en:\nPaquetexprés $245\nEstafeta Terrestre $220\nUPS Exprés $250\nEstafeta Exprés $370\nFedEx Terrestre $225\nDHL Terrestre $265\nFedEx Exprés $285\nDHL Exprés $290";
+
+		  // Crea un elemento de textarea oculto para copiar el texto
+		  const elementoTemporal = document.createElement("textarea");
+		  elementoTemporal.value = informacion;
+		  elementoTemporal.setAttribute("readonly", "");
+		  elementoTemporal.style.position = "absolute";
+		  elementoTemporal.style.left = "-9999px";
+		  document.body.appendChild(elementoTemporal);
+
+		  // Selecciona y copia el texto del elemento de textarea
+		  elementoTemporal.select();
+		  document.execCommand("copy");
+
+		  // Elimina el elemento de textarea temporal
+		  document.body.removeChild(elementoTemporal);
+
+		  // Muestra una notificacion de que se ha copiado la informacion
+		  alert("Se copiaron los precios de 6KG");
+		}
+		
+		function copiar7kg() {
+		  // Selecciona el texto que queremos copiar
+		  const informacion = "Listo, te saldría en:\nPaquetexprés $250\nEstafeta Terrestre $230\nUPS Exprés $260\nEstafeta Exprés $410\nFedEx Terrestre $240\nDHL Terrestre $275\nFedEx Exprés $300\nDHL Exprés $300";
+
+		  // Crea un elemento de textarea oculto para copiar el texto
+		  const elementoTemporal = document.createElement("textarea");
+		  elementoTemporal.value = informacion;
+		  elementoTemporal.setAttribute("readonly", "");
+		  elementoTemporal.style.position = "absolute";
+		  elementoTemporal.style.left = "-9999px";
+		  document.body.appendChild(elementoTemporal);
+
+		  // Selecciona y copia el texto del elemento de textarea
+		  elementoTemporal.select();
+		  document.execCommand("copy");
+
+		  // Elimina el elemento de textarea temporal
+		  document.body.removeChild(elementoTemporal);
+
+		  // Muestra una notificacion de que se ha copiado la informacion
+		  alert("Se copiaron los precios de 7KG");
+		}
+		
+		function copiar8kg() {
+		  // Selecciona el texto que queremos copiar
+		  const informacion = "Listo, te saldría en:\nPaquetexprés $250\nEstafeta Terrestre $240\nUPS Exprés $270\nEstafeta Exprés $445\nFedEx Terrestre $260\nDHL Terrestre $285\nFedEx Exprés $310\nDHL Exprés $330";
+
+		  // Crea un elemento de textarea oculto para copiar el texto
+		  const elementoTemporal = document.createElement("textarea");
+		  elementoTemporal.value = informacion;
+		  elementoTemporal.setAttribute("readonly", "");
+		  elementoTemporal.style.position = "absolute";
+		  elementoTemporal.style.left = "-9999px";
+		  document.body.appendChild(elementoTemporal);
+
+		  // Selecciona y copia el texto del elemento de textarea
+		  elementoTemporal.select();
+		  document.execCommand("copy");
+
+		  // Elimina el elemento de textarea temporal
+		  document.body.removeChild(elementoTemporal);
+
+		  // Muestra una notificacion de que se ha copiado la informacion
+		  alert("Se copiaron los precios de 8KG");
+		}
+		
+		function copiar9kg() {
+		  // Selecciona el texto que queremos copiar
+		  const informacion = "Listo, te saldría en:\nPaquetexprés $250\nEstafeta Terrestre $250\nUPS Exprés $280\nEstafeta Exprés $480\nFedEx Terrestre $270\nDHL Terrestre $295\nFedEx Exprés $330\nDHL Exprés $340";
+
+		  // Crea un elemento de textarea oculto para copiar el texto
+		  const elementoTemporal = document.createElement("textarea");
+		  elementoTemporal.value = informacion;
+		  elementoTemporal.setAttribute("readonly", "");
+		  elementoTemporal.style.position = "absolute";
+		  elementoTemporal.style.left = "-9999px";
+		  document.body.appendChild(elementoTemporal);
+
+		  // Selecciona y copia el texto del elemento de textarea
+		  elementoTemporal.select();
+		  document.execCommand("copy");
+
+		  // Elimina el elemento de textarea temporal
+		  document.body.removeChild(elementoTemporal);
+
+		  // Muestra una notificacion de que se ha copiado la informacion
+		  alert("Se copiaron los precios de 9KG");
+		}
+		
+		function copiar10kg() {
+		  // Selecciona el texto que queremos copiar
+		  const informacion = "Listo, te saldría en:\nPaquetexprés $250\nEstafeta Terrestre $260\nUPS Exprés $300\nEstafeta Exprés $515\nFedEx Terrestre $280\nDHL Terrestre $320\nFedEx Exprés $360\nDHL Exprés $360";
+
+		  // Crea un elemento de textarea oculto para copiar el texto
+		  const elementoTemporal = document.createElement("textarea");
+		  elementoTemporal.value = informacion;
+		  elementoTemporal.setAttribute("readonly", "");
+		  elementoTemporal.style.position = "absolute";
+		  elementoTemporal.style.left = "-9999px";
+		  document.body.appendChild(elementoTemporal);
+
+		  // Selecciona y copia el texto del elemento de textarea
+		  elementoTemporal.select();
+		  document.execCommand("copy");
+
+		  // Elimina el elemento de textarea temporal
+		  document.body.removeChild(elementoTemporal);
+
+		  // Muestra una notificacion de que se ha copiado la informacion
+		  alert("Se copiaron los precios de 10KG");
+		}
+		
+		function agregarRegistro() {
+			var tabla = document.getElementById("tabla").getElementsByTagName("tbody")[0];
+			var nuevaFila = tabla.insertRow(tabla.length);
+
+			var nuevaCeldaNombre = nuevaFila.insertCell(0);
+			var nuevaCeldaTelefono = nuevaFila.insertCell(1);
+			var nuevaCeldaPaqueteria = nuevaFila.insertCell(2);
+			var nuevaCeldaKilos = nuevaFila.insertCell(3);
+			var nuevaCeldaPrecio = nuevaFila.insertCell(4);
+
+			var nombre = prompt("Ingrese el nombre:");
+			var telefono = prompt("Ingrese teléfono:");
+			var paqueteria = prompt("Ingrese la paquetería:");
+			var kilos = prompt("Ingrese los kilos:");
+			var precio = prompt("Ingrese el precio:");
+
+		    nuevaCeldaNombre.innerHTML = nombre;
+		    nuevaCeldaTelefono.innerHTML = telefono;
+		    nuevaCeldaPaqueteria.innerHTML = paqueteria;
+			nuevaCeldaKilos.innerHTML = kilos;
+			nuevaCeldaPrecio.innerHTML = precio;
+		}
+		</script>
+    </div>
+</body>
